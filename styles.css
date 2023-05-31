@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color:#4c3f58;
+}
+.bg-primary{
+    height: 100vh;
+    width: 100%;
+    background-color:#4c3f58;
+    position: relative;
+    
+}
+.button-style{
+    color: #fef3b9;
+    background-color: #4c3f58;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 10px;
+    float: none;
+    position: absolute;
+}
+.button-curriculo{
+    color: #fef3b9;
+    cursor: pointer;
+    margin-top: 510px;
+    margin-inline-start: 1300px;
+    background-color: #4c3f58;
+    border: none;
+    position: absolute;
+    
+}
+.button-curriculo:hover{
+    color: white;
+    transform: translate(-50%, -50%);
+    animation: flutuacao 1s
+    both;
+}
+@keyframes flutuacao{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-12px);
+    }
+}
+.button-linkedin{
+    color: #fef3b9;
+    cursor: pointer;
+    margin-top: 510px;
+    margin-inline-start: 1100px;
+    background-color: #4c3f58;
+    border: none;
+    position: absolute;
+}
+.button-linkedin:hover{
+    color: white;
+    transform: translate(-50%, -50%);
+    animation: flutuacao 1s
+    both;
+}@keyframes flutuacao{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-12px);
+    }
+}
+
+.button-github{
+    color: #fef3b9;
+    cursor: pointer;
+    margin-top: 510px;
+    margin-inline-start: 1200px;
+    background-color: #4c3f58;
+    border: none;
+    position: absolute;
+}
+.button-github:hover{
+    color: white;
+    transform: translate(-50%, -50%);
+    animation: flutuacao 1s
+    both;
+}
+@keyframes flutuacao{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-12px);
+    }
+}
+li{
+    margin-inline-start: 500px;
+    margin-top: 450px;
+    margin-left: 500px;
+    position: absolute;
+    width: 620px;
+    height: 249px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 130px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h1{
+    position: absolute;
+    width: 292px;
+    height: 28px;
+    margin-top: 430px;
+    padding-left: 515px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: overlay;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
